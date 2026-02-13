@@ -1,0 +1,1466 @@
+{
+  "generated_at": "2026-02-13T23:20:09.209743+00:00",
+  "source": "https://docs.cloud.google.com/security-command-center/docs/threat-findings-index",
+  "items": [
+    {
+      "namespace": "aiplatform",
+      "id": "credential_access_agent_engine_anomalous_access_to_metadata_service",
+      "display_name": "Credential Access: Agent Engine Anomalous Access to Metadata Service",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-anomalous-access-to-metadata-service",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "discovery_agent_engine_evidence_of_port_scanning",
+      "display_name": "Discovery: Agent Engine Evidence of Port Scanning",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-port-scanning-evidence",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "discovery_agent_engine_service_account_self_investigation",
+      "display_name": "Discovery: Agent Engine Service Account Self-Investigation",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-iam-anomalous-behavior-service-account-gets-own-iam-policy",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "discovery_agent_engine_unauthorized_service_account_api_call",
+      "display_name": "Discovery: Agent Engine Unauthorized Service Account API Call",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-unauthorized-service-account-api-call",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "exfiltration_agent_engine_initiated_bigquery_data_exfiltration",
+      "display_name": "Exfiltration: Agent Engine Initiated BigQuery Data Exfiltration",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-big-query-exfil",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "exfiltration_agent_engine_initiated_bigquery_data_extraction",
+      "display_name": "Exfiltration: Agent Engine Initiated BigQuery Data Extraction",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-big-query-exfil-to-cloud-storage",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "exfiltration_agent_engine_initiated_cloud_sql_exfiltration",
+      "display_name": "Exfiltration: Agent Engine Initiated Cloud SQL Exfiltration",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-cloudsql-exfil-export",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "initial_access_agent_engine_identity_excessive_permission_denied_actions",
+      "display_name": "Initial Access: Agent Engine Identity Excessive Permission Denied Actions",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-excessive-failed-attempt",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "initial_access_dormant_service_account_activity_in_ai_service",
+      "display_name": "Initial Access: Dormant Service Account Activity in AI Service",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-dormant-service-account-used-in-action",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "persistence_new_ai_api_method",
+      "display_name": "Persistence: New AI API Method",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-behavior-new-api-method",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "persistence_new_geography_for_ai_service",
+      "display_name": "Persistence: New Geography for AI Service",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-iam-anomalous-behavior-ip-geolocation",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_agent_engine_suspicious_token_generation_cross_project_access_token",
+      "display_name": "Privilege Escalation: Agent Engine Suspicious Token Generation (cross-project access token)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-suspicious-token-generation-cross-project-access-token",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_agent_engine_suspicious_token_generation_cross_project_openid_token",
+      "display_name": "Privilege Escalation: Agent Engine Suspicious Token Generation (cross-project OpenID token)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-suspicious-token-generation-cross-project-openid",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_agent_engine_suspicious_token_generation_implicit_delegation",
+      "display_name": "Privilege Escalation: Agent Engine Suspicious Token Generation (implicit delegation)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-suspicious-token-generation-implicit-delegation",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_agent_engine_suspicious_token_generation_signjwt",
+      "display_name": "Privilege Escalation: Agent Engine Suspicious Token Generation (signJwt)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/agent-engine-suspicious-token-generation-sign-jwt",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_anomalous_impersonation_of_service_account_for_ai_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Impersonation of Service Account for AI Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-sa-delegation-impersonation-of-sa-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_anomalous_multistep_service_account_delegation_for_ai_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Multistep Service Account Delegation for AI Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-sa-delegation-multistep-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_anomalous_multistep_service_account_delegation_for_ai_data_access",
+      "display_name": "Privilege Escalation: Anomalous Multistep Service Account Delegation for AI Data Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-sa-delegation-multistep-data-access",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_anomalous_service_account_impersonator_for_ai_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Service Account Impersonator for AI Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-sa-delegation-impersonator-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "aiplatform",
+      "id": "privilege_escalation_anomalous_service_account_impersonator_for_ai_data_access",
+      "display_name": "Privilege Escalation: Anomalous Service Account Impersonator for AI Data Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "AI",
+      "api_service": "aiplatform.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ai-anomalous-sa-delegation-impersonator-data-access",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_deleted_google_cloud_backup_and_dr_backup",
+      "display_name": "Impact: Deleted Google Cloud Backup and DR Backup",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-delete-vault-backup",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_deleted_google_cloud_backup_and_dr_host",
+      "display_name": "Impact: Deleted Google Cloud Backup and DR host",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-hosts-delete-host",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_deleted_google_cloud_backup_and_dr_plan_association",
+      "display_name": "Impact: Deleted Google Cloud Backup and DR plan association",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-delete-backup-plan-association",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_deleted_google_cloud_backup_and_dr_vault",
+      "display_name": "Impact: Deleted Google Cloud Backup and DR Vault",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-delete-vault",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_delete_policy",
+      "display_name": "Impact: Google Cloud Backup and DR delete policy",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-templates-delete-policy",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_delete_profile",
+      "display_name": "Impact: Google Cloud Backup and DR delete profile",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-profiles-delete-profile",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_delete_storage_pool",
+      "display_name": "Impact: Google Cloud Backup and DR delete storage pool",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-storage-pools-delete",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_delete_template",
+      "display_name": "Impact: Google Cloud Backup and DR delete template",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-templates-delete-template",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_expire_all_images",
+      "display_name": "Impact: Google Cloud Backup and DR expire all images",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-expire-images-all",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_expire_image",
+      "display_name": "Impact: Google Cloud Backup and DR expire image",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-expire-image",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_reduced_backup_expiration",
+      "display_name": "Impact: Google Cloud Backup and DR reduced backup expiration",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-reduce-backup-expiration",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_reduced_backup_frequency",
+      "display_name": "Impact: Google Cloud Backup and DR reduced backup frequency",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-reduce-backup-frequency",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_remove_appliance",
+      "display_name": "Impact: Google Cloud Backup and DR remove appliance",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-appliances-remove-appliance",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "backupdr",
+      "id": "impact_google_cloud_backup_and_dr_remove_plan",
+      "display_name": "Impact: Google Cloud Backup and DR remove plan",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Backup and DR",
+      "api_service": "backupdr.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/backup-remove-plan",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "bigquery",
+      "id": "exfiltration_bigquery_data_exfiltration",
+      "display_name": "Exfiltration: BigQuery Data Exfiltration",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "BigQuery",
+      "api_service": "bigquery.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/big-query-exfil",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "bigquery",
+      "id": "exfiltration_bigquery_data_extraction",
+      "display_name": "Exfiltration: BigQuery Data Extraction",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "BigQuery",
+      "api_service": "bigquery.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/big-query-exfil-to-cloud-storage",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "bigquery",
+      "id": "exfiltration_bigquery_data_to_google_drive",
+      "display_name": "Exfiltration: BigQuery Data to Google Drive",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "BigQuery",
+      "api_service": "bigquery.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/big-query-exfil-to-google-drive",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "bigquery",
+      "id": "exfiltration_move_to_public_bigquery_resource",
+      "display_name": "Exfiltration: Move to Public BigQuery resource",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "BigQuery",
+      "api_service": "bigquery.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/big-query-exfil-to-public-dataset",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "credential_access_clouddb_failed_login_from_anonymizing_proxy_ip",
+      "display_name": "Credential Access: CloudDB Failed login from Anonymizing Proxy IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-db-login-failed-anon-ip",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "exfiltration_cloud_sql_data_exfiltration",
+      "display_name": "Exfiltration: Cloud SQL Data Exfiltration",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloudsql-exfil-export",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "exfiltration_cloud_sql_over_privileged_grant",
+      "display_name": "Exfiltration: Cloud SQL Over-Privileged Grant",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloudsql-exfil-user-granted-all-permissions",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "exfiltration_cloud_sql_restore_backup_to_external_organization",
+      "display_name": "Exfiltration: Cloud SQL Restore Backup to External Organization",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloudsql-exfil-restore-backup-to-external-instance",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "initial_access_clouddb_successful_login_from_anonymizing_proxy_ip",
+      "display_name": "Initial Access: CloudDB Successful login from Anonymizing Proxy IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-db-login-succeeded-anon-ip",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "initial_access_database_superuser_writes_to_user_tables",
+      "display_name": "Initial Access: Database Superuser Writes to User Tables",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloudsql-superuser-writes-to-user-tables",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "privilege_escalation_alloydb_database_superuser_writes_to_user_tables",
+      "display_name": "Privilege Escalation: AlloyDB Database Superuser Writes to User Tables",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/alloydb-superuser-writes-to-user-tables",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "cloudsql",
+      "id": "privilege_escalation_alloydb_over_privileged_grant",
+      "display_name": "Privilege Escalation: AlloyDB Over-Privileged Grant",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Database",
+      "api_service": "sqladmin.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/alloydb-user-granted-all-permissions",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "brute_force_ssh",
+      "display_name": "Brute force SSH",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/ssh-brute-force",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "impact_managed_instance_group_autoscaling_set_to_maximum",
+      "display_name": "Impact: Managed Instance Group Autoscaling Set To Maximum",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-mig-autoscaling-set-to-max",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "lateral_movement_modified_boot_disk_attached_to_instance",
+      "display_name": "Lateral Movement: Modified Boot Disk Attached to Instance",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/modify-boot-disk-attach-to-instance",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "lateral_movement_os_patch_execution_from_service_account",
+      "display_name": "Lateral Movement: OS Patch Execution From Service Account",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-os-patch-execution-from-service-account",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "persistence_gce_admin_added_ssh_key",
+      "display_name": "Persistence: GCE Admin Added SSH Key",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gce-admin-add-ssh-key",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "persistence_gce_admin_added_startup_script",
+      "display_name": "Persistence: GCE Admin Added Startup Script",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gce-admin-add-startup-script",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "persistence_global_startup_script_added",
+      "display_name": "Persistence: Global Startup Script Added",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-global-startup-script-added",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "compute",
+      "id": "privilege_escalation_global_shutdown_script_added",
+      "display_name": "Privilege Escalation: Global Shutdown Script Added",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Compute Engine",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-global-shutdown-script-added",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "credential_access_failed_attempt_to_approve_kubernetes_certificate_signing_request_csr",
+      "display_name": "Credential Access: Failed Attempt to Approve Kubernetes Certificate Signing Request (CSR)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-approve-csr-forbidden",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "credential_access_manually_approved_kubernetes_certificate_signing_request_csr",
+      "display_name": "Credential Access: Manually Approved Kubernetes Certificate Signing Request (CSR)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-csr-approved",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "credential_access_secrets_accessed_in_kubernetes_namespace",
+      "display_name": "Credential Access: Secrets Accessed In Kubernetes Namespace",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/secrets-accessed-in-kubernetes-namespace",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_anonymous_sessions_granted_cluster_admin_access",
+      "display_name": "Defense Evasion: Anonymous Sessions Granted Cluster Admin Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-anonymous-sessions-granted-cluster-admin",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_breakglass_workload_deployment_created",
+      "display_name": "Defense Evasion: Breakglass Workload Deployment Created",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/binary-authorization-breakglass-workload-create",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_breakglass_workload_deployment_updated",
+      "display_name": "Defense Evasion: Breakglass Workload Deployment Updated",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/binary-authorization-breakglass-workload-update",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_manually_deleted_certificate_signing_request_csr",
+      "display_name": "Defense Evasion: Manually Deleted Certificate Signing Request (CSR)",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-manually-deleted-csr",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_potential_kubernetes_pod_masquerading",
+      "display_name": "Defense Evasion: Potential Kubernetes Pod Masquerading",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-pod-masquerading",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "defense_evasion_static_pod_created",
+      "display_name": "Defense Evasion: Static Pod Created",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-static-pod-created",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "discovery_can_get_sensitive_kubernetes_object_check",
+      "display_name": "Discovery: Can get sensitive Kubernetes object check",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-can-get-sensitive-object",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "execution_gke_launch_excessively_capable_container",
+      "display_name": "Execution: GKE launch excessively capable container",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-excessively-capable-container-created",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "execution_kubernetes_pod_created_with_potential_reverse_shell_arguments",
+      "display_name": "Execution: Kubernetes Pod Created with Potential Reverse Shell Arguments",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-reverse-shell-pod",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "execution_suspicious_exec_or_attach_to_a_system_pod",
+      "display_name": "Execution: Suspicious Exec or Attach to a System Pod",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-suspicious-exec-attach",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "execution_workload_triggered_in_sensitive_namespace",
+      "display_name": "Execution: Workload triggered in sensitive namespace",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-sensitive-namespace-workload-triggered",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "impact_gke_kube_dns_modification_detected",
+      "display_name": "Impact: GKE kube-dns modification detected",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-kube-dns-modification",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "impact_suspicious_kubernetes_container_names_cryptocurrency_mining",
+      "display_name": "Impact: Suspicious Kubernetes Container Names - Cryptocurrency Mining",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-suspicious-cryptomining-pod",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "initial_access_anonymous_gke_resource_created_from_the_internet",
+      "display_name": "Initial Access: Anonymous GKE Resource Created from the Internet",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-resource-created-anonymously-from-internet",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "initial_access_gke_nodeport_service_created",
+      "display_name": "Initial Access: GKE NodePort service created",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-nodeport-service-created",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "initial_access_gke_resource_modified_anonymously_from_the_internet",
+      "display_name": "Initial Access: GKE Resource Modified Anonymously from the Internet",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-data-accessed-anonymously-from-internet",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "initial_access_successful_api_call_made_from_a_tor_proxy_ip",
+      "display_name": "Initial Access: Successful API call made from a TOR proxy IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-tor-proxy-ip-request",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "persistence_gke_webhook_configuration_detected",
+      "display_name": "Persistence: GKE Webhook Configuration Detected",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-webhook-config-created",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "persistence_service_account_created_in_sensitive_namespace",
+      "display_name": "Persistence: Service Account Created in sensitive namespace",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-service-account-creation-sensitive-namespace",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_changes_to_sensitive_kubernetes_rbac_objects",
+      "display_name": "Privilege Escalation: Changes to sensitive Kubernetes RBAC objects",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-edit-sensitive-rbac-object",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_clusterrole_with_privileged_verbs",
+      "display_name": "Privilege Escalation: ClusterRole with Privileged Verbs",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-clusterrole-privileged-verbs",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_clusterrolebinding_to_privileged_role",
+      "display_name": "Privilege Escalation: ClusterRoleBinding to Privileged Role",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-crb-clusterrole-aggregation-controller",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_create_kubernetes_csr_for_master_cert",
+      "display_name": "Privilege Escalation: Create Kubernetes CSR for master cert",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-csr-for-master-cert",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_creation_of_sensitive_kubernetes_bindings",
+      "display_name": "Privilege Escalation: Creation of sensitive Kubernetes bindings",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-create-sensitive-binding",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_effectively_anonymous_users_granted_gke_cluster_access",
+      "display_name": "Privilege Escalation: Effectively Anonymous Users Granted GKE Cluster Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-anonymous-users-granted-access",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_get_kubernetes_csr_with_compromised_bootstrap_credentials",
+      "display_name": "Privilege Escalation: Get Kubernetes CSR with compromised bootstrap credentials",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-get-csr-with-compromised-bootstrap-credentials",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_launch_of_privileged_kubernetes_container",
+      "display_name": "Privilege Escalation: Launch of privileged Kubernetes container",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-control-plane-launch-privileged-container",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_suspicious_kubernetes_container_names_exploitation_and_escape",
+      "display_name": "Privilege Escalation: Suspicious Kubernetes Container Names - Exploitation and Escape",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gke-suspicious-exploit-pod",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_workload_created_with_a_sensitive_host_path_mount",
+      "display_name": "Privilege Escalation: Workload Created with a Sensitive Host Path Mount",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-sensitive-hostpath",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "container",
+      "id": "privilege_escalation_workload_with_shareprocessnamespace_enabled",
+      "display_name": "Privilege Escalation: Workload with shareProcessNamespace enabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Kubernetes Engine",
+      "api_service": "container.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-gke-shareprocessnamespace-pod",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "defense_evasion_modify_vpc_service_control",
+      "display_name": "Defense Evasion: Modify VPC Service Control",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/vpcsc-change-reduces-perimeter-protection",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "defense_evasion_organization_level_service_account_token_creator_role_added",
+      "display_name": "Defense Evasion: Organization-Level Service Account Token Creator Role Added",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-org-level-service-account-tokencreatorrole-added",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "defense_evasion_project_level_service_account_token_creator_role_added",
+      "display_name": "Defense Evasion: Project-Level Service Account Token Creator Role Added",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-project-level-service-account-tokencreatorrole-added",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "discovery_information_gathering_tool_used",
+      "display_name": "Discovery: Information Gathering Tool Used",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-information-gathering-tool-used",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "discovery_service_account_self_investigation",
+      "display_name": "Discovery: Service Account Self-Investigation",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/iam-anomalous-behavior-service-account-gets-own-iam-policy",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "discovery_unauthorized_service_account_api_call",
+      "display_name": "Discovery: Unauthorized Service Account API Call",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-unauthorized-service-account-api-call",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "evasion_access_from_anonymizing_proxy",
+      "display_name": "Evasion: Access from Anonymizing Proxy",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-ip-google-proxy-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "impact_billing_disabled",
+      "display_name": "Impact: Billing Disabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-billing-disabled-multiple-projects",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "impact_service_api_disabled",
+      "display_name": "Impact: Service API Disabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-service-api-disabled",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_account_disabled_hijacked",
+      "display_name": "Initial Access: Account Disabled Hijacked",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-account-disabled-hijacked",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_disabled_password_leak",
+      "display_name": "Initial Access: Disabled Password Leak",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-disabled-password-leak",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_dormant_service_account_action",
+      "display_name": "Initial Access: Dormant Service Account Action",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/dormant-service-account-used-in-action",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_dormant_service_account_key_created",
+      "display_name": "Initial Access: Dormant Service Account Key Created",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/dormant-service-account-key-created",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_excessive_permission_denied_actions",
+      "display_name": "Initial Access: Excessive Permission Denied Actions",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/excessive-failed-attempt",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_government_based_attack",
+      "display_name": "Initial Access: Government Based Attack",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-government-backed-attack",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_leaked_service_account_key_used",
+      "display_name": "Initial Access: Leaked Service Account Key Used",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/leaked-sa-key-used",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "initial_access_suspicious_login_blocked",
+      "display_name": "Initial Access: Suspicious Login Blocked",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-suspicious-login-blocked",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_iam_anomalous_grant",
+      "display_name": "Persistence: IAM Anomalous Grant",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/iam-anomalous-grant",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_new_api_method",
+      "display_name": "Persistence: New API Method",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-behavior-new-api-method",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_new_geography",
+      "display_name": "Persistence: New Geography",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/iam-anomalous-behavior-ip-geolocation",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_new_user_agent",
+      "display_name": "Persistence: New User Agent",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/iam-anomalous-behavior-user-agent",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_service_account_key_created",
+      "display_name": "Persistence: Service Account Key Created",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-service-account-key-creation",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_sso_enablement_toggle",
+      "display_name": "Persistence: SSO Enablement Toggle",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-sso-enablement-toggle",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_sso_settings_changed",
+      "display_name": "Persistence: SSO Settings Changed",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-sso-settings-changed",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_strong_authentication_disabled",
+      "display_name": "Persistence: Strong Authentication Disabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-strong-authentication-disabled",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_two_step_verification_disabled",
+      "display_name": "Persistence: Two Step Verification Disabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Google Workspace",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gsuite-two-step-verification-disabled",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "persistence_unmanaged_account_granted_sensitive_role",
+      "display_name": "Persistence: Unmanaged Account Granted Sensitive Role",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/unmanaged-account-added-in-iam-role",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_anomalous_impersonation_of_service_account_for_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Impersonation of Service Account for Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-sa-delegation-impersonation-of-sa-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_anomalous_multistep_service_account_delegation_for_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Multistep Service Account Delegation for Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-sa-delegation-multistep-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_anomalous_multistep_service_account_delegation_for_data_access",
+      "display_name": "Privilege Escalation: Anomalous Multistep Service Account Delegation for Data Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-sa-delegation-multistep-data-access",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_anomalous_service_account_impersonator_for_admin_activity",
+      "display_name": "Privilege Escalation: Anomalous Service Account Impersonator for Admin Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-sa-delegation-impersonator-admin-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_anomalous_service_account_impersonator_for_data_access",
+      "display_name": "Privilege Escalation: Anomalous Service Account Impersonator for Data Access",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/anomalous-sa-delegation-impersonator-data-access",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_dormant_service_account_granted_sensitive_role",
+      "display_name": "Privilege Escalation: Dormant Service Account Granted Sensitive Role",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/dormant-service-account-added-in-iam-role",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_external_member_added_to_privileged_group",
+      "display_name": "Privilege Escalation: External Member Added To Privileged Group",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/external-member-added-to-privileged-group",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_impersonation_role_granted_for_dormant_service_account",
+      "display_name": "Privilege Escalation: Impersonation Role Granted For Dormant Service Account",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/dormant-service-account-impersonation-role-granted",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_new_service_account_is_owner_or_editor",
+      "display_name": "Privilege Escalation: New Service Account is Owner or Editor",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-service-account-editor-owner",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_privileged_group_opened_to_public",
+      "display_name": "Privilege Escalation: Privileged Group Opened To Public",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/privileged-group-opened-to-public",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_sensitive_role_granted_to_hybrid_group",
+      "display_name": "Privilege Escalation: Sensitive Role Granted To Hybrid Group",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/sensitive-role-to-group-with-external-member",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_suspicious_cross_project_permission_use",
+      "display_name": "Privilege Escalation: Suspicious Cross-Project Permission Use",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-suspicious-cross-project-permission-datafusion",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "privilege_escalation_suspicious_token_generation",
+      "display_name": "Privilege Escalation: Suspicious Token Generation",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-suspicious-token-generation-cross-project-access-token",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "iam",
+      "id": "resource_development_offensive_security_distro_activity",
+      "display_name": "Resource Development: Offensive Security Distro Activity",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "IAM",
+      "api_service": "iam.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-offensive-security-distro-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "active_scan_log4j_vulnerable_to_rce",
+      "display_name": "Active Scan: Log4j Vulnerable to RCE",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/log4j-active-scan-success",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "cloud_ids_threat_identifier",
+      "display_name": "Cloud IDS: THREAT_IDENTIFIER",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-ids-threat-activity",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "command_and_control_dns_tunneling",
+      "display_name": "Command and Control: DNS Tunneling",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-dns-tunneling",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "defense_evasion_vpc_route_masquerade_attempt",
+      "display_name": "Defense Evasion: VPC Route Masquerade Attempt",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-vpc-route-masquerade",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "impact_vpc_firewall_high_priority_block",
+      "display_name": "Impact: VPC Firewall High Priority Block",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-vpc-firewall-high-priority-block",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "impact_vpc_firewall_mass_rule_deletion",
+      "display_name": "Impact: VPC Firewall Mass Rule Deletion",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/yl2-vpc-firewall-mass-rule-deletion",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "initial_access_log4j_compromise_attempt",
+      "display_name": "Initial Access: Log4j Compromise Attempt",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/log4j-compromise-attempt",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "log4j_malware_bad_domain",
+      "display_name": "Log4j Malware: Bad Domain",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-domain-google-log4j-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "log4j_malware_bad_ip",
+      "display_name": "Log4j Malware: Bad IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-ip-google-log4j-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "malware_bad_domain",
+      "display_name": "Malware: bad domain",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-domain-live-google-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "malware_bad_ip",
+      "display_name": "Malware: bad IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-ip-live-google-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "malware_cryptomining_bad_domain",
+      "display_name": "Malware: Cryptomining Bad Domain",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-domain-google-crypto-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "networking",
+      "id": "malware_cryptomining_bad_ip",
+      "display_name": "Malware: Cryptomining Bad IP",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Network",
+      "api_service": "compute.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/bad-ip-google-crypto-intel",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "run",
+      "id": "execution_cryptomining_docker_image",
+      "display_name": "Execution: Cryptomining Docker Image",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Cloud Run",
+      "api_service": "run.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-run-cryptomining-docker-images",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "run",
+      "id": "impact_cryptomining_commands",
+      "display_name": "Impact: Cryptomining Commands",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Cloud Run",
+      "api_service": "run.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-run-jobs-cryptomining-commands",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "run",
+      "id": "privilege_escalation_default_compute_engine_service_account_setiampolicy",
+      "display_name": "Privilege Escalation: Default Compute Engine Service Account SetIAMPolicy",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Cloud Run",
+      "api_service": "run.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/cloud-run-services-set-iam-policy",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "storage",
+      "id": "defense_evasion_gcs_bucket_ip_filtering_modified",
+      "display_name": "Defense Evasion: GCS Bucket IP Filtering Modified",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Cloud Storage",
+      "api_service": "storage.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/gcs-bucket-ip-filtering-modified",
+      "namespace_source": "resource_category:map"
+    },
+    {
+      "namespace": "storage",
+      "id": "defense_evasion_project_http_policy_block_disabled",
+      "display_name": "Defense Evasion: Project HTTP Policy Block Disabled",
+      "detection_service": "Event Threat Detection",
+      "resource_category": "Cloud Storage",
+      "api_service": "storage.googleapis.com",
+      "doc_url": "https://docs.cloud.google.com/security-command-center/docs/findings/threats/project-http-policy-block-disabled",
+      "namespace_source": "resource_category:map"
+    }
+  ]
+}
