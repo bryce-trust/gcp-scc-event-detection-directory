@@ -122,7 +122,7 @@ def derive_namespace_fallback(display_name: str, doc_url: str | None) -> tuple[s
         if hint in cand_set:
             return ns, api, f"fallback:hint:{hint}"
 
-    return "scc", None, "fallback:default"
+    return "securitycenter", None, "fallback:default"
 
 
 def report_unmapped_categories(categories: set[str]):
